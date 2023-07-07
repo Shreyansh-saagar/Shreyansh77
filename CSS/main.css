@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#aboutMe{
+  width: 100vw;
+  height: auto;
+  margin-top: 3%;
+  padding: 4% 5%;
+}
+#hello{
+  display: flex;
+  align-items: center;
+}
+#helloGIF{
+  margin-right: 4%;
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 19%;
+  height: 19%;
+}
+#Im{
+  color: #252525;
+  font-size: 2.6em;
+  font-weight: 400;
+  line-height: normal;
+}
+.name{
+  margin-top: 3%;
+  display: flex;
+  color: #252525;
+  font-size: 1.8em;
+  font-weight:600;
+  line-height: normal;
+}
+.name p{
+  display: inline-block;
+  margin: 0;
+  padding: 2%;
+}
+#first-name{
+  margin-right:10px ;
+  padding: 4% 3%;
+  background: #FFFF8F;
+}
+#last-name{
+  padding: 4% 3%;
+  background: #99FFC2;
+}
+.self-intro{
+  margin: 5% 0px;
+  width: 85vw;
+}
+.self-intro p{
+  font-size: .9em;
+  text-align: justify;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: 0.48px;
+  color: #252525;
+}
+a{
+  text-decoration: none;
+  display: flex;
+}
+#Resume{
+  width: 35vw;
+  margin: 1% 0%;
+  border: 3px solid #FFBF00;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5 3%;
+  cursor: pointer;
+  background: none;
+}
+#Resume lord-icon{
+  margin-right: 4%;
+}
+#Resume p{
+  margin: 0;
+  color: #252525;
+  font-size: 1.05em;
+  font-weight: 400;
+  line-height: normal;
+}
+#profiles{
+  display: flex;
+  list-style: none;
+  margin-bottom: 2%;
+  padding: 0;
+}
+.profile{
+  margin-top: 2%; 
+}
+.profile a{
+  color: #252525;
+  font-size: 1.8em;
+  margin-right: 8vw;
+}
+.square {
+  border: 1px solid #FFBF00;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 40vw;
+  height: 10vh;
+  background-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.square img{
+  position: relative;
+  width: 35vw;
+  height: 10vh;
+  border-radius: 10px 0 0 10px;
+}
+#song {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 30vw;
+  padding: 2%;
+}
+.play {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.play lord-icon{
+  width: 60px;
+  height: 60px;
+}
+.play:hover {
+  opacity: 0.8;
+}
+.play {
+  width: 20vw;
+  height: 4vh;
+}
+.play lord-icon{
+  right: 4%;
+  bottom: 30%;
+}
+.square p {
+  bottom: 15%;
+  padding-top: 30%;
+  margin: 0;
+  letter-spacing: 0;
+  font-size: 0.5rem;
+  font-weight: 400;
+  color: #252525;
+}
+#caps{
+  margin-top:2%;
+  letter-spacing: 0;
+  position: relative;
+  left: 3%;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #252525;
+}
+
+
+@media screen and (min-width:459px) and (max-width:1024px){
+
+#aboutMe{
+  margin-top: 2%;
+  padding: 2% 5%;
+  padding-bottom: 0;
+  /* overflow: hidden; */
+}
+#hello{
+  display: flex;
+  align-items: center;
+}
+#helloGIF{
+  margin-right: 1%;
+  width: 8.5%;
+  height: 8.5%;
+}
+#Im{
+  font-size: 3.2em;
+}
+.name{
+  margin-top: 1%;
+  font-size: 2.3em;
+}
+#first-name{
+  padding: 1% 3%;
+}
+#last-name{
+  padding: 1% 3%;
+}
+.self-intro{
+  margin: 2.5% 0px;
+  width: 89vw;
+}
+.self-intro p{
+  font-size: 1.1em;
+  text-align: justify;
+  letter-spacing: 0.58px;
+}
+#Resume{
+  width: 15vw;
+  margin: .5% 0%;
+  padding: 1% 2%;
+}
+#Resume p{
+  font-size: 1em;
+}
+#Resume lord-icon{
+  width: 70px;
+  height: 40px;
+}
+#profiles{
+  margin-bottom: 2%;
+}
+.profile{
+  margin-top: 1%; 
+}
+.profile a{
+  font-size: 2.3em;
+  margin-right: 4vw;
+}
+.square {
+  position: relative;
+  left: 0%;
+  width: 19vw;
+  height: 15vh;
+}
+.square img{
+  position: relative;
+  left: 25% ;
+  width: 8vw;
+  height: 15vh;
+}
+#song {
+  width: 20vw;
+  padding: 1%;
+}
+.play lord-icon{
+  width: 60px;
+  height: 60px;
+}
+.play:hover {
+  opacity: 0.8;
+}
+.square .play {
+  width: 20vw;
+  height: 4vh;
+}
+.square lord-icon{
+  position: relative;
+  right: 0%;
+  bottom: 15%;
+}
+.square p {
+  position: relative;
+  bottom: 15%;
+  padding-top: 20%;
+  right: 0%;
+  font-size: 0.5em;
+  font-weight: 600;
+}
+#caps{
+  left: 5px;
+  margin-top:1%;
+  font-size: .81rem;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+  
+#aboutMe{
+  margin-top: 2%;
+  padding: 2% 5%;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+#hello{
+  display: flex;
+  align-items: center;
+}
+#helloGIF{
+  margin-right: 1%;
+  width: 8.5%;
+  height: 8.5%;
+}
+#Im{
+  font-size: 3.2em;
+}
+.name{
+  margin-top: 1%;
+  font-size: 2.5em;
+}
+#first-name{
+  padding: 1% 4%;
+}
+#last-name{
+  padding: 1% 4%;
+}
+.self-intro{
+  margin: 2.5% 0px;
+  width: 89vw;
+}
+.self-intro p{
+  font-size: 1.15em;
+  text-align: left;
+  letter-spacing: 0.58px;
+}
+#Resume{
+  width: 15vw;
+  margin: .5% 0%;
+  padding: 1% 2%;
+}
+#Resume p{
+  font-size: 1.2em;
+}
+#Resume lord-icon{
+  width: 80px;
+  height: 40px;
+}
+#profiles{
+  margin-bottom: 2%;
+}
+.profile{
+  margin-top: 1%; 
+}
+.profile a{
+  font-size: 2.5em;
+  margin-right: 7vw;
+}
+.square {
+  position: relative;
+  left: 7.5%;
+  width: 15vw;
+  height: 15vh;
+}
+.square img{
+  width: 55vw;
+  height: 15vh;
+}
+#song {
+  width: 20vw;
+  padding: 1%;
+}
+.play lord-icon{
+  width: 60px;
+  height: 60px;
+}
+.play:hover {
+  opacity: 0.8;
+}
+.square .play {
+  width: 20vw;
+  height: 4vh;
+}
+.square lord-icon{
+  right: 15%;
+  bottom: 15%;
+}
+.square p {
+  position: relative;
+  bottom: 15%;
+  padding-top: 15%;
+  right: 15%;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+#caps{
+  margin-top:1%;
+  font-size: 1em;
+}
+}
+
+@media (min-width: 1281px) {
+  body{
+    overflow-x: hidden;
+  }
+  #aboutMe{
+    margin-top: 1%;
+    padding: 1% 5%;
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+  #hello{
+    display: flex;
+    align-items: center;
+  }
+  #helloGIF{
+    margin-right: 1%;
+    width: 5%;
+    height: 5%;
+  }
+  #Im{
+    font-size: 3.8em;
+  }
+  .name{
+    margin-top: 1%;
+    font-size: 2.5em;
+  }
+  #first-name{
+    padding: 1% 2%;
+  }
+  #last-name{
+    padding: 1% 2%;
+  }
+  .self-intro{
+    margin: 1.5% 0px;
+    width: 85vw;
+  }
+  .self-intro p{
+    font-size: 1.2em;
+    text-align: left;
+    letter-spacing: 0.68px;
+  }
+  #Resume{
+    width: 8vw;
+    height: 7vh;
+    margin: .2% 0%;
+    padding: .4%;
+  }
+  #Resume button {
+    display: flex;
+  }
+  #Resume p{
+    font-size: 1.3em;
+  }
+  #Resume lord-icon{
+    width: 60px;
+    height: 60px;
+  }
+  #profiles{
+    margin-bottom: 1%;
+  }
+  .profile{
+    margin-top: 0%; 
+  }
+  .profile a{
+    font-size: 2.5em;
+    margin-right: 3vw;
+  }
+  .square {
+    position: relative;
+    left: 0%;
+    width: 15vw;
+    height: 12vh;
+  }
+  .square img{
+    position: relative;
+    left: 34.3%;
+    width: 55vw;
+    height: 12vh;
+  }
+  #song {
+    width: 20vw;
+    padding: 1%;
+  }
+  .play lord-icon{
+    position: relative;
+    width: 4em;
+    height: 4em
+  }
+  .play:hover {
+    opacity: 0.8;
+  }
+  .square .play {
+    padding: 3% 0%;
+    width: 20vw;
+    height: 4vh;
+  }
+  .square lord-icon{
+    right:0%;
+    bottom:50%;
+  }
+  
+  .square p {
+    position: relative;
+    padding-top: 2em;
+    right: 0%;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  #caps{
+    margin-top:0.5%;
+    left: 5px;
+    font-size: 1em;
+  } 
+}

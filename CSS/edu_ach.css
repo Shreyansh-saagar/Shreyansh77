@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#educ_achie{
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+  margin-top: 2%;
+  padding: 2% 5%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+#educ_achie::-webkit-scrollbar {
+  display: none;
+}
+.edu_ach{
+  position: relative;
+  top: 3%;
+  right: 4%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+  padding: 5%;
+  margin-bottom: 7%;
+  transition: transform 0.3s ease;
+}
+.card:hover{
+  transform: translateY(-2%);
+}
+.card li{
+  margin: 0 7%;
+  font-size: 1em;
+}
+.card p{
+  color: #252525;
+  font-size: 1.3em;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 3%;
+}
+.card span{
+  display: none;
+}
+.card a{
+  color: #252525;
+  font-size: 1em;
+  font-weight: bold;
+  display: flex;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width:459px) and (max-width:1024px){
+  #educ_achie{
+    width: 100vw;
+    height: 68vh;
+    margin-top: 1%;
+    padding: 1% 5%;
+  }
+  #educ_achie::-webkit-scrollbar {
+    display: none;
+  }
+  .edu_ach{
+    position: relative;
+    top: 1%;
+    right:2%;
+  }
+  .card {
+    padding: 2%;
+    margin-bottom: 3%;
+  }
+  .card:hover{
+    transform: translateY(-3%);
+  }
+  .card li{
+    margin: 0 7%;
+    font-size: 1em;
+  }
+  .card p{
+    color: #252525;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+  }
+  .card span{
+    display: flex;
+    color: #252525;
+    font-size: .75em;
+    font-style: italic;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+  }
+  .card a{
+    color: #252525;
+    font-size: 1.3em;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+  #educ_achie{
+    width: 100vw;
+    height: 65vh;
+    margin-top: 1%;
+    padding: 1% 5%;
+  }
+  #educ_achie::-webkit-scrollbar {
+    display: none;
+  }
+  .edu_ach{
+    position: relative;
+    top: 1%;
+    right:2%;
+  }
+  .card {
+    padding: 2%;
+    margin-bottom: 3%;
+  }
+  .card:hover{
+    transform: translateY(-3%);
+  }
+  .card li{
+    margin: 0 7%;
+    font-size: 1em;
+  }
+  .card p{
+    color: #252525;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+  }
+  .card span{
+    display: flex;
+    color: #252525;
+    font-size: .75em;
+    font-style: italic;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+  }
+  .card a{
+    color: #252525;
+    font-size: 1.3em;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+}
+
+
+@media (min-width: 1281px) {
+  #educ_achie{
+    width: 100vw;
+    height: 75vh;
+    margin-top: 1%;
+    padding: 1% 5%;
+  }
+  #educ_achie::-webkit-scrollbar {
+    display: none;
+  }
+  .edu_ach{
+    position: relative;
+    top: 1%;
+    right:1%;
+  }
+  .card {
+    padding: 1% 2%;
+    margin-bottom: 2%;
+  }
+  .card:hover{
+    transform: translateY(-3%);
+  }
+  .card li{
+    margin: 0 7%;
+    font-size: 1.2em;
+  }
+  .card p{
+    color: #252525;
+    font-size: 1.5em;
+    margin-bottom: 1%;
+  }
+  .card span{
+    display: flex;
+    color: #252525;
+    font-size: .75em;
+    font-style: italic;
+    font-weight: normal;
+    position: absolute;
+    right: 30px;
+  }
+  .card a{
+    color: #252525;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  li {
+    margin-bottom: 2px;
+  }
+}
