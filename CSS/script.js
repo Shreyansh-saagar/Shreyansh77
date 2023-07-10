@@ -81,7 +81,7 @@ const aboutMe = () =>{
     <div class="profiles-box">
         <ul id="profiles">
             <li class="profile">
-                <a href="https://github.com/Shreyansh-saagar target="_blank" title="Github"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://github.com/Shreyansh-saagar" target="_blank" title="Github"><ion-icon name="logo-github"></ion-icon></a>
             </li>
             <li class="profile" title="Figma">
                 <a href="https://www.figma.com/@susanoo_77" target="_blank"><ion-icon name="logo-figma"></ion-icon></a>
