@@ -65,7 +65,7 @@ const aboutMe = () =>{
     <div id="hello"><img src='resources/gify.gif' alt='Hello' id='helloGIF'> <span id="Im">, I'm</span></div>
     <div class="name"><p id="first-name">Shreyansh </p><p id="last-name">Saagar</p></div>
     <div class="self-intro"><p>I am a frontend Web Developer and UI-UX designer who strives to create intuitive websites using modern & minimal user experiences. I believe websites are the vibrant gateways to boundless possibilities, where design and functionality converge to create immersive experiences that captivate, inform, and connect people in the digital realm. My expertise in design thinking, combined with my ability to translate ideas into functional and visually appealing websites, makes me a valuable asset. In 2024, I am going to complete my Bachelor's degree in Technology in Computer Sciences.</p>
-    <a href="https://drive.google.com/file/d/1uJyzp5epGMdnO6n0iy9HP-FnYhwkCsop/view?usp=drive_link">
+    <a href="https://drive.google.com/uc?export=download&id=1_QWki9eryk9f_zH6vX0jn_Otq7RTUM5V">
         <button id="Resume">
             <lord-icon
                 src="https://cdn.lordicon.com/nocovwne.json"
@@ -81,7 +81,7 @@ const aboutMe = () =>{
     <div class="profiles-box">
         <ul id="profiles">
             <li class="profile">
-                <a href="https://github.com/Shreyansh-saagar" target="_blank" title="Github"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://github.com/Shreyansh-saagar target="_blank" title="Github"><ion-icon name="logo-github"></ion-icon></a>
             </li>
             <li class="profile" title="Figma">
                 <a href="https://www.figma.com/@susanoo_77" target="_blank"><ion-icon name="logo-figma"></ion-icon></a>
@@ -114,17 +114,20 @@ const aboutMe = () =>{
 const education =() => {
 // --------------------------------------------------------------------------------------------
     const institution = [
+        "Coding Ninjas",
         "Amritsar Group of Colleges",
         "Adarsh Vikas Vidyalya",
         "Adelaide Convent School",
     ];
     const paragraph = [
+        "Learning FullStack Development",
         "Bachelors of Technology in Computer Science & Engineering | CGPA – 7.57 (till 5th semester)",
         "10+2 (CBSE)",
         "10th (CBSE)",
     ];
     const timeline =[
-        "2020 - 2024",
+        "2023 - Present",
+        "2020 - Present",
         "2019-2020",
         "2016-2017",
     ];
@@ -158,16 +161,20 @@ const education =() => {
 const achievements = () => {
 // --------------------------------------------------------------------------------------------
     const achievementName = [
-        "Winner (1st position)",
-        "Winner (3rd position)",
+        "Codekaze-Sept ’23",
+        "Founder’s Challenge",
+        "The Art of UI event",
+        "Smart Hackathon",
         "National Engineering Olympiad",
         "National Soft Tennis",
     ];
     const achievementDetail = [
-        "The Art of UI event - (Amritsar Group of Colleges)",
-        "Smart Hackathon - (GeeksforGeeks)",
+        "Secured (AIR 606) (College-Specific Rank: 1) (Graduation Year (24 & above) Based Rank: 495) -  (Coding Ninjas)",
+        "Secured (AIR 88) - (Coding Ninjas)",
+        "Winner (1st position) - (Amritsar Group of Colleges)",
+        "Winner (3rd position) - (GeeksforGeeks)",
         "(Round 1: AIR 695 ) (Round 2: AIR 390)",
-        " Captained Bihar State Team for 1 years",
+        "Captained Bihar State Team for 1 years",
     ];
 // --------------------------------------------------------------------------------------------
     function generateList(arg1,arg2){
@@ -193,6 +200,8 @@ const achievements = () => {
 const certification = () => {
 // --------------------------------------------------------------------------------------------
     const certificates = [
+    "Google Cloud Certificates - Google",
+    "Certificate of excellence in FrontEnd Development - Coding Ninja", 
     "Certificate of excellence in C++ - Coding Ninja",
     "HTML,CSS and JAVASCRIPT - Coursera",
     "Machine Learning - Internship Studio (Training + Internship)",
@@ -201,6 +210,8 @@ const certification = () => {
     "SQL (Basic level) - HackerRank",
     ];
     const links = [
+        "https://www.cloudskillsboost.google/public_profiles/78c91478-0ba5-446f-911f-b23edb1ec720",
+        "https://certificate.codingninjas.com/view/00a5cd66c67aa9ef",
         "https://certificate.codingninjas.com/view/7785eb5ff0924a98",
         "https://www.coursera.org/account/accomplishments/certificate/8VTEQAT5LNPM",
         "https://www.linkedin.com/posts/shreyansh-saagar_internship-studio-activity-6899628885307195392-LCW8?utm_source=share&utm_medium=member_desktop",
@@ -245,9 +256,10 @@ const skills = () => {
         " Bootstrap",
         " Tailwind",
         " C++",
-            " Machine Learning",
-            " SQL",
-            " Big Data",
+        " Machine Learning",
+        " SQL",
+        " Big Data",
+        " Node.js",
     ];
     const designSkill = [
         "UI-UX",
@@ -262,12 +274,12 @@ const skills = () => {
         " GitHub",
         " Canva",
         " Dribble",
+        " MongoDb",
     ]
     const platforms =[
         "Web",
         " Oracle",
         " Windows",
-        " Linux",
     ]
     const softSkills = [
         "Leadership",
@@ -276,8 +288,8 @@ const skills = () => {
         " Adaptability",
         " Event Management",
         " Strategic Planning",
-            " Writing",
-            " Design Thinking",
+        " Writing",
+        " Design Thinking",
     ]
     const innerlist = [
         TechSkill,
@@ -376,6 +388,7 @@ const internTime = [
 const projects = () => {
 // --------------------------------------------------------------------------------------------
     const img2 = [
+        "resources/carrent.jpeg",
         "resources/portfolio.png",
         "resources/chilz.jpeg",
         "resources/youtube.png",
@@ -387,6 +400,7 @@ const projects = () => {
         "resources/animax.png",
     ]
     const projectName = [
+        "Vroomz.com",
         "Personal Portfolio",
         "Chillz.com",
         "YouTube Adview Prediction",
@@ -398,6 +412,7 @@ const projects = () => {
         "Animax Web UI-UX",
     ];
     const projectDesc = [
+        "A sleek React-based landing page for a dynamic car rental web app, seamlessly blending intuitive user experience with seamless functionality.",
         "Discover a captivating personal portfolio website crafted with HTML, CSS, JavaScript, and jQuery. Explore the showcase of my skills, projects, and achievements. Experience my journey now!",
         "Chillz.com is a movie streaming website fetching data from TMDB API. It offers movie details and utilizes HTML, CSS, and JS, with Firebase and Google Sheets for efficient database management.",
         "This machine learning project aims to predict the number of views for a YouTube advertisement by analyzing various factors such as duration, category, and other metadata.",
@@ -410,6 +425,7 @@ const projects = () => {
     ];
     const projectLinks = [
         "#",
+        "https://shreyansh-saagar.github.io/Shreyansh77/",
         "https://github.com/Shreyansh-saagar/Chillz.com",
         "https://github.com/Shreyansh-saagar/Machine-Learning/tree/main/Youtube%20Adview%20Prediction",
         "https://www.figma.com/community/file/1221777967713335637",
