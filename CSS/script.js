@@ -66,6 +66,7 @@ const aboutMe = () =>{
     <div class="name"><p id="first-name">Shreyansh </p><p id="last-name">Saagar</p></div>
     <div class="self-intro"><p>I am a frontend Web Developer and UI-UX designer who strives to create intuitive websites using modern & minimal user experiences. I believe websites are the vibrant gateways to boundless possibilities, where design and functionality converge to create immersive experiences that captivate, inform, and connect people in the digital realm. My expertise in design thinking, combined with my ability to translate ideas into functional and visually appealing websites, makes me a valuable asset. In 2024, I am going to complete my Bachelor's degree in Technology in Computer Sciences.</p>
     <a href="https://drive.google.com/uc?export=download&id=1KC-5RLSniWApjq5EYfALHewzRGsFGyWJ">
+
         <button id="Resume">
             <lord-icon
                 src="https://cdn.lordicon.com/nocovwne.json"
