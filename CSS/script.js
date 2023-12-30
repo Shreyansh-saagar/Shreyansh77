@@ -65,7 +65,7 @@ const aboutMe = () =>{
     <div id="hello"><img src='resources/gify.gif' alt='Hello' id='helloGIF'> <span id="Im">, I'm</span></div>
     <div class="name"><p id="first-name">Shreyansh </p><p id="last-name">Saagar</p></div>
     <div class="self-intro"><p>I am a frontend Web Developer and UI-UX designer who strives to create intuitive websites using modern & minimal user experiences. I believe websites are the vibrant gateways to boundless possibilities, where design and functionality converge to create immersive experiences that captivate, inform, and connect people in the digital realm. My expertise in design thinking, combined with my ability to translate ideas into functional and visually appealing websites, makes me a valuable asset. In 2024, I am going to complete my Bachelor's degree in Technology in Computer Sciences.</p>
-    <a href="https://drive.google.com/uc?export=download&id=1KC-5RLSniWApjq5EYfALHewzRGsFGyWJ">
+    <a href="https://drive.google.com/uc?export=download&id=190p9oHfT-0_LcVKju3HnEJlttjsiMw1j">
 
         <button id="Resume">
             <lord-icon
@@ -82,7 +82,7 @@ const aboutMe = () =>{
     <div class="profiles-box">
         <ul id="profiles">
             <li class="profile">
-                <a href="https://github.com/Shreyansh-saagar target="_blank" title="Github"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://github.com/Shreyansh-saagar" target="_blank" title="Github"><ion-icon name="logo-github"></ion-icon></a>
             </li>
             <li class="profile" title="Figma">
                 <a href="https://www.figma.com/@susanoo_77" target="_blank"><ion-icon name="logo-figma"></ion-icon></a>
@@ -116,13 +116,13 @@ const education =() => {
 // --------------------------------------------------------------------------------------------
     const institution = [
         "Coding Ninjas",
-        "Amritsar Group of Colleges",
+        "I.K. Gujral Punjab Technical University",
         "Adarsh Vikas Vidyalya",
         "Adelaide Convent School",
     ];
     const paragraph = [
         "Learning FullStack Development",
-        "Bachelors of Technology in Computer Science & Engineering | CGPA – 7.57 (till 5th semester)",
+        "Bachelors of Technology in Computer Science & Engineering",
         "10+2 (CBSE)",
         "10th (CBSE)",
     ];
@@ -201,6 +201,7 @@ const achievements = () => {
 const certification = () => {
 // --------------------------------------------------------------------------------------------
     const certificates = [
+    "NPTEL Cloud Computing Certificate",
     "Google Cloud Certificates - Google",
     "Certificate of excellence in FrontEnd Development - Coding Ninja", 
     "Certificate of excellence in C++ - Coding Ninja",
@@ -211,6 +212,7 @@ const certification = () => {
     "SQL (Basic level) - HackerRank",
     ];
     const links = [
+        "#",
         "https://www.cloudskillsboost.google/public_profiles/78c91478-0ba5-446f-911f-b23edb1ec720",
         "https://certificate.codingninjas.com/view/00a5cd66c67aa9ef",
         "https://certificate.codingninjas.com/view/7785eb5ff0924a98",
@@ -248,6 +250,7 @@ const skills = () => {
         "Software's",
         "Platforms",
         "Soft Skills",
+        "Course Work",
     ];
     const TechSkill=[
         "HTML",
@@ -259,7 +262,6 @@ const skills = () => {
         " C++",
         " Machine Learning",
         " SQL",
-        " Big Data",
         " Node.js",
     ];
     const designSkill = [
@@ -292,12 +294,23 @@ const skills = () => {
         " Writing",
         " Design Thinking",
     ]
+
+    const coursework = [
+        "Object Oriented Programming",
+        " Operating Systems",
+        " Database Management System",
+        " Computer Networking",
+        " Cloud Computing",
+        " Web Development",
+        " Software Project Management",
+    ]
     const innerlist = [
         TechSkill,
         designSkill,
         software,
         platforms,
         softSkills,
+        coursework,
     ]
     const skillObject = {
         techStack:   ["HTML","CSS","JavaScript","PHP","Bootstrap","Tailwind","C++","Machine Learning","SQL","Big Data",],
@@ -332,24 +345,28 @@ const skills = () => {
 const intern = () => {
 // --------------------------------------------------------------------------------------------
 const img =[
+    "https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703808000&semt=ais",
     "resources/webdev.jpeg",
     "resources/mlimg.jpeg",
     "resources/graphic.png",
 ]
 
 const internship = [
+    "FreeLance",
     "Coursera",
     "Internship Studio",
     "SahiCollege Mentoring",
 ]
 
 const internDetail = [
+    "Collaborated with a client to conceptualize and execute a visually appealing UI design for their e-commerce application.",
     "Frontend Web Development - 2 Month Industrial Training",
     "Machine Learning Training + Internship",
     "Junior Graphic Designer + Campus Lead",
 ];
 
 const internTime = [
+    "",
     "JUN 2022 - JUL 2022: Remote",
     "NOV 2021 - FEB 2022: Remote",
     "SEP 2021 - OCT 2021: Remote",
@@ -391,6 +408,9 @@ const projects = () => {
     const img2 = [
         "resources/carrent.jpeg",
         "resources/portfolio.png",
+        "https://weeb-com.vercel.app/Resourcces/logo.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVQNhWC9xFsRoe7ty-Ld4RJv9z6l-23ASINg&usqp=CAU",
+        "https://media.istockphoto.com/id/1323505778/vector/librarian-at-library-scene-young-woman-working-at-desk-on-computer-monitor-vector.jpg?s=612x612&w=0&k=20&c=yXhvxp2PrLxmCHd7pSjVIWf417XwKsEr6UKHt-bCtck=",
         "resources/chilz.jpeg",
         "resources/youtube.png",
         "resources/nba.jpeg",
@@ -403,6 +423,9 @@ const projects = () => {
     const projectName = [
         "Vroomz.com",
         "Personal Portfolio",
+        "Weeb.com",
+        "Note Keeper - (using Node.js)",
+        "Library Management System",
         "Chillz.com",
         "YouTube Adview Prediction",
         "NBA App UI-UX",
@@ -413,8 +436,13 @@ const projects = () => {
         "Animax Web UI-UX",
     ];
     const projectDesc = [
-        "A sleek React-based landing page for a dynamic car rental web app, seamlessly blending intuitive user experience with seamless functionality.",
+        `Utilized React to create a landing page for a dynamic car rental web app, offering a smooth and intuitive user experience and
+        functionality.`,
         "Discover a captivating personal portfolio website crafted with HTML, CSS, JavaScript, and jQuery. Explore the showcase of my skills, projects, and achievements. Experience my journey now!",
+        `Created a sleek and user-friendly website for anime enthusiasts, featuring dynamic quotes and animations using HTML, Tailwind
+        CSS, and JavaScript.`,
+        `Note Keeper is a terminal application that allows users to create, read, update, and delete notes using Node.js.`,
+        `This project is a web-based application that allows users to manage various aspects of a library, such as books, members and returns.`,
         "Chillz.com is a movie streaming website fetching data from TMDB API. It offers movie details and utilizes HTML, CSS, and JS, with Firebase and Google Sheets for efficient database management.",
         "This machine learning project aims to predict the number of views for a YouTube advertisement by analyzing various factors such as duration, category, and other metadata.",
         "Designed the UI-UX of NBA Store a mobile application for shopping jersey. The design is visually appealing and incredibly user-friendly, making it easier for customers to find what they need.",
@@ -427,6 +455,9 @@ const projects = () => {
     const projectLinks = [
         "#",
         "https://shreyansh-saagar.github.io/Shreyansh77/",
+        "https://weeb-com-shreyansh-saagar.vercel.app/",
+        "https://github.com/Shreyansh-saagar/Note-Keeper-using-Node.js",
+        "https://github.com/Shreyansh-saagar/Library-Management-System",
         "https://github.com/Shreyansh-saagar/Chillz.com",
         "https://github.com/Shreyansh-saagar/Machine-Learning/tree/main/Youtube%20Adview%20Prediction",
         "https://www.figma.com/community/file/1221777967713335637",
